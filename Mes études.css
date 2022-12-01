@@ -1,0 +1,211 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body{
+    background-image: url("incendie-datacenter-ovhcloud\ \(2\).jpg");
+    background-size: 100%;
+}
+
+nav{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    top: -10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px;
+    position:fixed;
+    width: 100%;
+    
+}
+
+nav button a{
+	text-decoration:none;
+}
+.logo{
+    color: rgb(253, 253, 253);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+span{
+    color: rgb(0, 133, 126);
+}
+ 
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+    font-size: 15px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(0, 133, 126);
+    transition: .2s;
+} 
+
+
+.btn{
+    color: white;
+    text-decoration:none ;
+    border: 2px solid transparent;
+    font-weight:  bold;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+
+h1{
+    margin: 20px 0px 20px;
+    font-size: 70px;
+    
+ }
+ button{
+    margin: 10px;
+    border:0;
+    background: transparent;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-family: Impact;
+    transition: all .2s;
+}
+
+button::after{
+    content:"";
+    width: 540px;
+    height: 540px;
+    background: linear-gradient(200deg,  #2d2241 30%, #00837a 80%);
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    z-index: -1;
+    transition: all .5s;
+}
+
+button:hover::after{
+    transform: rotate(150deg);
+}
+
+button:hover{
+    transform: translate(0,-3px);
+    box-shadow: 10px -10px 25px rgba(9, 185, 103, 0.25), -10px 10px 25px rgba(39, 200, 255, .25);
+}
+
+form{
+  font-family: Impact;
+  color: 0, 133, 126;
+
+}
+
+
+.content{
+    background-color: rgb(0, 133, 126);
+    position: absolute;
+    color: rgb(138, 17, 17);
+    letter-spacing: 1px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 15);
+    
+}
+
+.Documentation1{
+    background-size:100%; 
+    size: 200px;
+	width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.card1{
+	box-shadow: 10px 10px 20px -8px rgba(206, 205, 205, 0.2);
+	height: 915px;
+	width: 735px;
+	padding-top: 60px ;
+    padding-left: 50px;
+    padding-right: 50px;
+	background: linear-gradient(to right,#212230,#101333);;
+	border-radius: 5px;
+	margin: 100px;
+    box-shadow: 45px 45px 45px -8px rgba(10, 10, 10, 0.5);
+	text-align: center;
+    width: 100%;
+}
+
+.Documentation2{
+    background-size:100%; 
+    size: 200px;
+	width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.card2{
+	box-shadow: 10px 10px 20px -8px rgba(206, 205, 205, 0.2);
+	height: 615px;
+	width: 735px;
+	padding-top: 60px ;
+    padding-left: 50px;
+    padding-right: 50px;
+	background: linear-gradient(to right,#212230,#101333);;
+	border-radius: 5px;
+	margin: 100px;
+    box-shadow: 45px 45px 45px -8px rgba(10, 10, 10, 0.5);
+	text-align: center;
+    width: 100%;
+}
+
+.card3{
+	box-shadow: 10px 10px 20px -8px rgba(206, 205, 205, 0.2);
+	height: 815px;
+	width: 735px;
+	padding-top: 60px ;
+    padding-left: 50px;
+    padding-right: 50px;
+	background: linear-gradient(to right,#212230,#101333);;
+	border-radius: 5px;
+	margin: 100px;
+    box-shadow: 45px 45px 45px -8px rgba(10, 10, 10, 0.5);
+	text-align: center;
+    width: 100%;
+}
+
+
+.pra p{
+	color: rgba(199, 196, 196, 0.8);
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+h5{
+	color: rgb(58, 51, 100);
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+img{
+    width: 400px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 45px 45px 45px -8px rgba(10, 10, 10, 0.5);
+    
+}
